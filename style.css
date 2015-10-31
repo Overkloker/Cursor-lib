@@ -1,0 +1,52 @@
+.flooring1 {
+  width: 76px;
+  height: 120px;
+  background: #ff4918;
+  float: left;
+}
+.flooring2 {
+  width: 302px;
+  height: 125px;
+  background: #775eff;
+  float: left;
+  margin-top: 100px;
+  margin-left: 30px;
+}
+.flooring3 {
+  width: 444px;
+  height: 430px;
+  background: #4afffa;
+  float: left;
+  margin-top: 250px;
+  margin-left: 30px;
+}
+.flooring4 {
+  width: 250px;
+  height: 250px;
+  background: #67ff3f;
+  float: left;
+  margin-top: 465px;
+  margin-left: 30px;
+}
+body {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+.visible {
+  display: block !important;
+}
+.flooring {
+  box-sizing: border-box;
+}
+.animation-border {
+  display: none;
+  border: 8px solid rgba(0, 0, 0, 0.8);
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  background: rgba(0, 0, 0, 0.5);
+  transition: height 2s ease-in-out 0.2s, width 2s ease-in-out 0.2s, top 2s ease-in-out 0.2s, left 2s ease-in-out 0.2s;
+}
